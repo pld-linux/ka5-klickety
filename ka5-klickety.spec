@@ -79,7 +79,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/hicolor/48x48/apps/ksame.png
 %{_iconsdir}/hicolor/64x64/apps/klickety.png
 %{_iconsdir}/hicolor/64x64/apps/ksame.png
-%{_datadir}/kconf_update/klickety-2.0-inherit-ksame-highscore.pl
+%attr(755,root,root) %{_datadir}/kconf_update/klickety-2.0-inherit-ksame-highscore.pl
 %{_datadir}/kconf_update/klickety.upd
 %{_datadir}/klickety
 %{_datadir}/kxmlgui5/klickety
