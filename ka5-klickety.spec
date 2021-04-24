@@ -1,15 +1,15 @@
-%define		kdeappsver	20.12.3
+%define		kdeappsver	21.04.0
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		klickety
 Summary:	klickety
 Name:		ka5-%{kaname}
-Version:	20.12.3
+Version:	21.04.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	http://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	e914c767e2a8253cafb62d186ce010fb
+# Source0-md5:	0baa13584b0a2950d613f5b82c1f22c4
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
@@ -85,7 +85,6 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_datadir}/kconf_update/klickety-2.0-inherit-ksame-highscore.pl
 %{_datadir}/kconf_update/klickety.upd
 %{_datadir}/klickety
-%{_datadir}/kxmlgui5/klickety
 %{_datadir}/metainfo/org.kde.klickety.appdata.xml
 %{_datadir}/metainfo/org.kde.ksame.appdata.xml
 %{_datadir}/sounds/klickety
