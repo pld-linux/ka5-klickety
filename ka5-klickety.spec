@@ -43,6 +43,11 @@ Klickety is a simple, yet challenging color matching game modeled
 after once famous game of SameGame.The idea behind Klickety is to
 completely clear the game board filled with the multicolored marbles.
 
+%description -l pl.UTF-8
+Klickety to prosta, ale wymagająca gra, wzororowana na słynnej grze
+SameGame. Celem gry jest całkowite wyczyszczenie planszy wypełnionej
+wielobrawnymi gałkami.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
